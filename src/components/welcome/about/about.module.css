@@ -1,0 +1,110 @@
+.aboutHeader {
+  font-weight: 800;
+  font-size: 66px;
+  line-height: 72px;
+  letter-spacing: -0.08em;
+  text-transform: capitalize;
+  color: rgba(51, 51, 51, 1);
+  padding: 30px;
+  width: 100%;
+}
+.aboutbody {
+  float: none;
+  text-align: center;
+  padding-top: 100px;
+  align-content: center;
+  width: 100%;
+
+  float: right;
+  float: left;
+  background-color: aliceblue;
+  position: relative;
+  padding-bottom: 100px;
+}
+.body_content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(51, 51, 51, 1);
+}
+.icon {
+  width: 50px;
+}
+
+.gridAboutPart {
+  margin-right: 5%;
+  text-align: left;
+  float: left;
+}
+.grid {
+  margin-left: 14%;
+  margin-right: 15%;
+  margin-top: 40px;
+  font-size: 60px;
+}
+.up_gridPart {
+  width: 30%;
+  margin-left: 3%;
+  text-align: left;
+  float: left;
+  margin-bottom: 30px;
+}
+.iconstyle {
+  width: auto;
+}
+.small_title {
+  font-size: 18px;
+  color: rgba(51, 51, 51, 1);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.small_content {
+  font-size: 14px;
+  margin-left: 30px;
+  line-height: 30px;
+  color: rgba(102, 102, 102, 1);
+}
+
+.caption {
+  font-size: 80px;
+  text-align: center;
+  top: 100px;
+  margin-top: 180px;
+  color: white;
+  left: 20%;
+  padding-bottom: 170px;
+  padding-top: 270px;
+}
+.image1 {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.padding_bottom_650 {
+  position: relative;
+
+  margin-top: 400px;
+  padding-top: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+  .up_gridPart {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .up_gridPart {
+    width: 100%;
+  }
+  .caption {
+    font-size: 50px;
+    text-align: center;
+
+    color: rgb(165, 53, 53);
+    left: 20%;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+}

@@ -1,0 +1,122 @@
+.FirstSection{
+    
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    
+}
+@keyframes mousetransform{
+   0% {left: -300px;top: -300;rotate: -54deg}
+   100% {rotate: 54deg; }
+}
+
+.mouseStyle{
+    rotate: 54deg;
+    position: absolute;
+    top:0px;
+    left: -5px;
+    animation-name: mousetransform;
+    animation-duration: 1.5s;
+    width: 18%;
+    z-index: 0;
+
+}
+
+@keyframes flowertransform{
+    0% {right:-400px; top:-300;rotate: -100deg}
+    
+ }
+.flowerStyle{
+    rotate: 0deg;
+    position: absolute;
+    top:-15%;
+    right: -4%;
+    animation-name: flowertransform;
+    animation-duration: 1.5s;
+    width: 40%;
+}
+
+@keyframes markertransform{
+    0% {top:100%; left:10%; rotate: 80deg;}
+    
+}
+.markerStyle{
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    animation-name: markertransform;
+    animation-duration: 2s;
+    width: 13%;
+}
+
+@keyframes papertransform{
+    0% {rotate: 80deg;}
+}
+.paperStyle{
+    
+    position: absolute;
+    top: 45%;
+    left: -20%;
+    height:auto;
+    animation-name: papertransform;
+    animation-duration: 2s;
+    width: 50%;   
+        
+}
+@keyframes image4trans {
+    0% {rotate: 80deg; top:90%;left: 20%;}
+}
+.image4{
+    position: absolute;
+    top: 65%;
+    left: 12%;
+    height:auto;
+    animation-name: image4trans;
+    animation-duration: 2s;
+    width: 16%;
+}
+
+@keyframes image6trans {
+    0% {rotate: 130deg; top:90%;right: -100%;}
+}
+.image6{
+    position: absolute;
+    top: 63%;
+    right: -18%;
+    height:auto;
+    animation-name: image6trans;
+    animation-duration: 2s;
+    width: 40%;
+}
+
+@keyframes image7trans {
+    0% {rotate: 90deg; top:70%;right: -100%;}
+}
+.image7{
+    position: absolute;
+    top: 50%;
+    right: 14%;
+    height:auto;
+    animation-name: image7trans;
+    animation-duration: 2s;
+    width: 15%;
+}
+.paper{
+    max-height: 10px;
+    
+}
+.backGround{    
+    background-color:aliceblue;;
+    height: 1000px;
+    max-height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.arrow
+{
+    position: absolute;
+    top: 80%;
+    margin-left: 50%;
+    float: none;
+    
+}

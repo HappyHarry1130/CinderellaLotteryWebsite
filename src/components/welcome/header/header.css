@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+.first{
+    position: fixed;
+    left: 2.1%;
+    top:28px;
+    
+    font-weight:800;
+    font-size: 20px; 
+    text-decoration: none;
+    color: black;
+    z-index: 4;
+    
+     
+    }
+.menu{
+    position: fixed;    
+    left: 20px;
+    top: 30px;
+    margin-left: 35%;
+    
+
+}
+.lie{
+    opacity: 0;
+}
+.lis{
+    height: 100px !important;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(227, 252, 252);
+    z-index: 3;
+    
+}
+.lis1{
+    height: 100px !important;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    
+    
+}
+.scroll{
+    position: fixed;
+    
+}
+.dropMenu{
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    display: none;
+}
+
+@media only screen and (max-width:840px) {
+   .menu{
+    display: none;
+   }
+    .dropMenu{
+        display: block;
+    }
+}
+

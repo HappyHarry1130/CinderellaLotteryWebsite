@@ -1,0 +1,50 @@
+.slide {
+  width: 60%;
+  margin-left: 20%;
+
+  margin-top: 80px;
+  position: relative;
+  text-align: center;
+  border-bottom: 1px;
+}
+.slide_body {
+  width: 80%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  margin-left: 10%;
+  padding-bottom: 150px;
+}
+.margin_top {
+  margin-top: 100px;
+  padding-bottom: 200px;
+  border-bottom: 1 firebrick;
+}
+.real_slidepart {
+  width: 300%;
+}
+.ress {
+  width: 33.3333%;
+  float: left;
+}
+.preview {
+  margin-top: 60px;
+  float: left;
+}
+.next {
+  margin-top: 60px;
+  float: right;
+}
+.image_flate {
+  float: left;
+  text-align: left;
+  margin-left: 5%;
+  padding-right: 20%px;
+}
+
+@media screen and (max-width: 1200px) {
+  .image_flate {
+    float: unset;
+    text-align: center;
+  }
+}
