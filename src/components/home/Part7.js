@@ -59,7 +59,7 @@ const MeetOurWinners = () => {
 
             },
           }}
-          loop={trued}
+          loop={true}
           modules={[Navigation]}
           className='items-center' // Pass modules here
           
